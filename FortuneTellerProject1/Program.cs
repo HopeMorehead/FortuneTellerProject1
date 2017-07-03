@@ -165,18 +165,21 @@ namespace FortuneTellerProject1
                     // ForegroundColor and Background change the colors in the 
                     //console window.
 
-                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.Write("ROYGBIV");
-                    Console.ForegroundColor = ConsoleColor.DarkCyan;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(" represents the");
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write(" seven");
-                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(" primary colors");
-                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.Write(" of the");
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                    Console.Write(" Rainbow. ");
                     Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                    Console.WriteLine(" Rainbow ");
+                    Console.WriteLine("Fun Facts!");
+
                     Console.ResetColor();
 
 
